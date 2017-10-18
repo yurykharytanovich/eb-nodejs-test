@@ -3,6 +3,7 @@
 set -x
 set -e
 
+rm -rf /home/ubuntu/.aws
 mkdir /home/ubuntu/.aws
 touch /home/ubuntu/.aws/config
 chmod 600 /home/ubuntu/.aws/config
